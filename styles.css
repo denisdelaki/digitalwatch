@@ -1,18 +1,25 @@
 
 .clock {
   position: absolute;
-  width: 747px;
-  height: 312px;
-  background-image: url("./background" );
+  width: 50%;
+  height: 80%;
+  background-image: url("./backgr.jpeg" );
   background-repeat: no-repeat;
   background-size: cover;
 
 }
+h2{
+    color: white;
+    font-size: 100px;
+}
 .watch{
      height: 240px;
     width: 502px;
-    background-color: rgba(0, 0, 0, 0.15);
-    position: fixed;
     left: 7vw;
     top: 5vh;
+    margin-top: 20px;
+   font-size: 10rem;
+   color: white;
+ 
+  
 }
