@@ -19,8 +19,11 @@ function showTime() {
   h = h < 10 ? "0" + h : h;
   m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s;
-//concanate the hours, minutes, seconds and the session
+  //concanate the hours, minutes, seconds and the session
   var time = h + ":" + m + ":" + s + "" + session;
-    document.getElementById("displayclock").innerText = time;
-    
+  document.getElementById("displayclock").innerText = time;
+  document.getElementById("displayclock").textContent = time;
+  // set the timeout for the clock
+  setTimeout(showTime, 1000);
 }
+showTime();
