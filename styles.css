@@ -1,0 +1,18 @@
+
+.clock {
+  position: absolute;
+  width: 747px;
+  height: 312px;
+  background-image: url("./background" );
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.watch{
+     height: 240px;
+    width: 502px;
+    background-color: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    left: 7vw;
+    top: 5vh;
+}
